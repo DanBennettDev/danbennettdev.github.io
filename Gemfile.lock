@@ -1,5 +1,5 @@
 GEM
-  remote: https://rubygems.org/
+  remote: http://rubygems.org/
   specs:
     blankslate (2.1.2.4)
     celluloid (0.16.0)
@@ -14,6 +14,7 @@ GEM
     execjs (2.5.2)
     fast-stemmer (1.0.2)
     ffi (1.9.10)
+    ffi (1.9.10-x64-mingw32)
     hitimes (1.2.3)
     jekyll (2.5.3)
       classifier-reborn (~> 2.0)
@@ -62,11 +63,15 @@ GEM
       hitimes
     toml (0.1.2)
       parslet (~> 1.5.0)
-    yajl-ruby (1.2.1)
+    yajl-ruby (1.2.3)
 
 PLATFORMS
   ruby
+  x64-mingw32
 
 DEPENDENCIES
   jekyll
   rouge
+
+BUNDLED WITH
+   1.16.5

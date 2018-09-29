@@ -1,14 +1,24 @@
 ---
-layout: full-width
+layout: post
 title: About
+mainpage: 
+    order: 3
+
+order: 3
 ---
 
-The *Tufte-Jekyll* theme is a natural extension of the work done by [Edward Tufte](https://github.com/edwardtufte/tufte-css) and his collaborators on Github who created a CSS file that allows web writers to use the same simple and elegant style employed in his published materials.
+{% newthought "I'm a HCI researcher, musician and software developer,"%} in the first year of my PhD in HCI at the University of Bristol, studying with Anne Roudaut and Oussama Metatla. 
 
-To incorporate these styles into a Jekyll theme, I have made some very slight modifications that attempt to maintain the feel of the CSS styles in his Github repo.
-
-Note that this is a full-width layout. This was accomplished by including ```layout: full-width``` in the YAML front matter for this page. Keep in mind that all the Tufte-Jekyll sidenote and marginnote goodness will not work on full-width layouts! 
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll).
+See my pages on [twitter](https://twitter.com/__stillPoint), [github](https://github.com/danBennettDev/), [google scholar](https://scholar.google.com/citations?user=KxrABMIAAAAJ&hl=en), my [newsletter]({{site.baseurl}}/about/mailingList.html), or contact me via my <a href='&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#100;&#98;&#49;&#53;&#50;&#51;&#55;&#64;&#98;&#114;&#105;&#115;&#116;&#111;&#108;&#46;&#97;&#99;&#46;&#117;&#107;'>email address</a>
 
 
+Outside of computing I have an academic background in philosophy of art, I also make music, which you can find [here](http://skjolbrot.org/), and I like to [read]({{site.baseurl}}/reading/index.html)
+
+![Photo Courtesy of Bruno Guastalla](cafe kino 15-05-16-4.jpg)
+Performing Rishin Singh's *Stalaktos* at Cafe Kino, Bristol (photo by Bruno Guastalla)
+
+
+
+<div class="ytcontainer">
+<iframe src="https://player.vimeo.com/video/14901626" frameborder="0" class="ytvideo" allow="autoplay; encrypted-media" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
