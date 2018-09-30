@@ -693,7 +693,7 @@ header > nav.sidebar a {
   label {
     cursor: pointer; }
 
-  pre, pre code, p code, p pre code {
+  pre, pre code, p code, p pre code, hr {
     width: 90%;
     padding: 0; }
 
