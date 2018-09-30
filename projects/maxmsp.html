@@ -134,6 +134,8 @@
 
 <p>It’s also slightly inspired by neuroscientific research on rhythm perception. Research suggests this is best modelled as both pulse-based and stochastic. It is thought that we anticipate the next rhythmic event based on previous events, but via a stochastic estimation mechanism (see e.g. <a href="https://www.amazon.co.uk/Rhythm-Music-Brain-Foundations-Applications/dp/041596475X?tag=ad-backfill-amzn-no-or-one-good-20"><em>Rhythm Music and the Brain</em> by Thaut</a>).</p>
 
+<hr />
+
 <h2 id="bounce">bounce~</h2>
 <p>This is my implementation and slight development of an audio synthesis technique described by <a href="http://ciat-lonbarde.net/">Peter Blasser of Ciat Lonbarde fame</a>. In simple terms it is a bank of chaotic triangle wave oscillators. The behaviour of the oscillators can be imagined, very roughly, as following the path of a group of imaginary balls bouncing around in a gravity and friction-free tube. When a ball hits another ball, or hits the top or bottom of the tube, it reverses its direction of travel. The paths of these balls are output as waveforms. With a single ball this is a crude (non-bandlimited) triangle oscillator, but when you add a couple more, things become much more interesting. This is great for patterned-but-unpredictable LFOs, or if you like noisy textural synthesis (and I do) for audio.</p>
 
@@ -159,6 +161,8 @@ Help patch</p>
 <p><a href="http://www.skjolbrot.org/skjfiles/dbbounceMacOSX.zip">OSX download</a></p>
 
 <p><a href="https://github.com/DanBennettDev/db.bounce">github</a></p>
+
+<hr />
 
 <h2 id="henon">henon~</h2>
 <p>This is a sonification of the <a href="https://en.wikipedia.org/wiki/H%C3%A9non_map">Hénon map</a> equation. It produces interesting noise textures in certain parts of its parameter space, and interesting transitions between noise and pitch in others. There is a choice of interpolation methods (drop sample, linear and b-spline) which affect the sound character considerably.
