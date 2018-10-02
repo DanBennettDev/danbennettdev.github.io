@@ -1,5 +1,6 @@
 @echo off
 cd /d "%~dp0"
+git --git-dir=.git --work-tree=_site push code
 rmdir _site /s /q
 call bundle exec jekyll build
 git --git-dir=.git --work-tree=_site add --all
