@@ -78,6 +78,11 @@
   src: url("../fonts/gill/subset-GillSansMT-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/gill/subset-GillSansMT-Italic.woff2") format("woff2"), url("../fonts/gill/subset-GillSansMT-Italic.woff") format("woff");
   font-weight: normal;
   font-style: italic; }
+@font-face {
+  font-family: 'Harbour';
+  src: url("../fonts/harbour-bold-webfont.woff2") format("woff2"), url("../fonts/harbour-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
 /* This file contains all the constants for colors and font styles */
 /**
  * Syntax highlighting styles
@@ -279,7 +284,7 @@ a {
   text-decoration: none; }
 
 p > a {
-  color: #120007;
+  color: #011550;
   text-decoration: none;
   position: relative;
  /*     text-decoration: underline;
@@ -305,9 +310,9 @@ body {
   margin-left: auto;
   margin-right: auto;
   padding-left: 0;
-  font-family: "Century Schoolbook", ETbook, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-  background-color: #a5a2a2;
-  color: #120007;
+  font-family: "Gill Sans MT", "Gill Sans", "Lato", sans-serif;
+  background-color: #aba8a8;
+  color: #011550;
   /*max-width: 1400px;*/
   counter-reset: sidenote-counter; }
 
@@ -317,7 +322,7 @@ h1 {
        margin-left: -3px;*/
   font-weight: 400;
   position: relative;
-  font-family: "Gill Sans MT", "Gill Sans", "Lato", sans-serif;
+  font-family: "Harbour", "Gill Sans", "Lato", sans-serif;
   font-size: 3.5rem;
   color: #e6e238;
   margin-left: -4vw;
@@ -395,7 +400,7 @@ blockquote footer {
   text-align: right; }
 
 .sans {
-  font-family: "Century Schoolbook", ETbook, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+  font-family: "Gill Sans MT", "Gill Sans", "Lato", sans-serif;
   letter-spacing: .03em; }
 
 pre, pre code, p code, p pre code {
@@ -581,7 +586,7 @@ hr:after {
   top: -0.7em;
   font-size: 1.5em;
   padding: 0 0.25em;
-  background: #a5a2a2; }
+  background: #aba8a8; }
 
 div.table-wrapper {
   overflow-x: auto; }
@@ -644,7 +649,7 @@ label.margin-toggle:not(.sidenote-number) {
 nav.sidebar {
   width: 5vw;
   margin-left: 2vw;
-  margin-top: 5vh;
+  margin-top: 3vh;
   top: 150px;
   margin-bottom: -0.5vh;
   max-width: 300px;
@@ -656,10 +661,10 @@ nav.sidebar {
 header > nav.sidebar a {
   font-size: 1.1rem;
   font-weight: 300;
-  font-family: "Gill Sans MT", "Gill Sans", "Lato", sans-serif;
+  font-family: "Harbour", "Gill Sans", "Lato", sans-serif;
   letter-spacing: 0em;
   text-transform: uppercase;
-  color: #120007;
+  color: #011550;
   padding-top: 0.4rem;
   text-decoration: none;
   display: inline-block;
@@ -759,7 +764,7 @@ header > nav.sidebar a {
 header > nav.group, body footer {
   width: 100%;
   margin-left: 3vw;
-  margin-top: 5vh;
+  margin-top: 3vh;
   margin-bottom: -0.5vh;
   max-width: 1400px;
   display: inline-block;
@@ -797,10 +802,10 @@ nav.group a.hover{
 header > nav a {
   font-size: 1.3rem;
   font-weight: 500;
-  font-family: "Gill Sans MT", "Gill Sans", "Lato", sans-serif;
+  font-family: "Harbour", "Gill Sans", "Lato", sans-serif;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  color: #120007;
+  color: #011550;
   padding-top: 1.5rem;
   text-decoration: none;
   display: inline-block;
@@ -856,7 +861,7 @@ ul.footer-links li {
   position: absolute; }
 
 .credits {
-  font-family: "Century Schoolbook", ETbook, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+  font-family: "Gill Sans MT", "Gill Sans", "Lato", sans-serif;
   margin-left: 10.5vw;
   margin-bottom: 1em;
   top: 1em; }
@@ -867,7 +872,7 @@ ul.footer-links li {
   position: fixed;
   /* Style to taste */
   left: 1.5vw;
-  border-left: dotted 1px #120007;
+  border-left: dotted 1px #011550;
   height: 100%;
   display: inline; }
 
@@ -884,7 +889,7 @@ ul.footer-links li {
   /* Style to taste */
   top: 21vh;
   left: 11%;
-  border-left: dotted 1px #120007;
+  border-left: dotted 1px #011550;
   height: 76vh;
   display: inline; }
 
@@ -1060,7 +1065,7 @@ hr.slender {
     font-size: 12pt; }
 
   html body span.print-footer {
-    font-family: "Century Schoolbook", ETbook, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    font-family: "Gill Sans MT", "Gill Sans", "Lato", sans-serif;
     font-size: 9pt;
     margin-top: 22.4pt;
     padding-top: 4pt;
