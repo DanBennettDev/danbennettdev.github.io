@@ -364,6 +364,7 @@ h1 {
   }*/
 h2 {
   font-style: italic;
+  font-family: "Harbour", "Gill Sans", "Lato", sans-serif;
   font-weight: 400;
   margin-top: 1.866666666666667rem;
   margin-bottom: 0;
@@ -372,8 +373,9 @@ h2 {
 
 h3 {
   font-style: italic;
-  font-weight: 400;
-  font-size: 1.8rem;
+  font-family: "Harbour", "Gill Sans", "Lato", sans-serif;
+  font-weight: 200;
+  font-size: 1.6rem;
   margin-top: 2.1777777777777778rem;
   margin-bottom: 0;
   line-height: 1.08888888888889; }
@@ -675,8 +677,8 @@ nav.sidebar {
 
 header > nav.sidebar a {
   font-size: 1.1rem;
-  font-weight: 300;
-  font-family: "Harbour", "Gill Sans", "Lato", sans-serif;
+  font-weight: bold;
+  font-family: "AkzidenzGrotesk", "Helvetica", "Arial", sans-serif;
   letter-spacing: 0em;
   text-transform: uppercase;
   color: #011550;
@@ -816,8 +818,8 @@ nav.group a.hover{
 */
 header > nav a {
   font-size: 1.3rem;
-  font-weight: 500;
-  font-family: "Harbour", "Gill Sans", "Lato", sans-serif;
+  font-weight: bold;
+  font-family: "AkzidenzGrotesk", "Helvetica", "Arial", sans-serif;
   letter-spacing: 0.15em;
   text-transform: uppercase;
   color: #011550;
