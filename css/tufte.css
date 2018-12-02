@@ -83,6 +83,21 @@
   src: url("../fonts/harbour-bold-webfont.woff2") format("woff2"), url("../fonts/harbour-bold-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
+@font-face {
+  font-family: 'AkzidenzGrotesk';
+  src: url("../fonts/AkzidenzGrotesk-Roman.woff2") format("woff2"), url("../fonts/AkzidenzGrotesk-Roman.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'AkzidenzGrotesk';
+  src: url("../fonts/AkzidenzGrotesk-Bold.woff2") format("woff2"), url("../fonts/AkzidenzGrotesk-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal; }
+@font-face {
+  font-family: 'AkzidenzGrotesk';
+  src: url("../fonts/AkzidenzGroteskBE-It.woff2") format("woff2"), url("../fonts/AkzidenzGroteskBE-It.woff") format("woff");
+  font-weight: normal;
+  font-style: italic; }
 /* This file contains all the constants for colors and font styles */
 /**
  * Syntax highlighting styles
@@ -310,7 +325,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   padding-left: 0;
-  font-family: "Gill Sans MT", "Gill Sans", "Lato", sans-serif;
+  font-family: "Akzidenz-Grotesk", "Helvetica", "Arial", sans-serif;
   background-color: #aba8a8;
   color: #011550;
   /*max-width: 1400px;*/
@@ -400,7 +415,7 @@ blockquote footer {
   text-align: right; }
 
 .sans {
-  font-family: "Gill Sans MT", "Gill Sans", "Lato", sans-serif;
+  font-family: "Akzidenz-Grotesk", "Helvetica", "Arial", sans-serif;
   letter-spacing: .03em; }
 
 pre, pre code, p code, p pre code {
@@ -861,7 +876,7 @@ ul.footer-links li {
   position: absolute; }
 
 .credits {
-  font-family: "Gill Sans MT", "Gill Sans", "Lato", sans-serif;
+  font-family: "Akzidenz-Grotesk", "Helvetica", "Arial", sans-serif;
   margin-left: 10.5vw;
   margin-bottom: 1em;
   top: 1em; }
@@ -1065,7 +1080,7 @@ hr.slender {
     font-size: 12pt; }
 
   html body span.print-footer {
-    font-family: "Gill Sans MT", "Gill Sans", "Lato", sans-serif;
+    font-family: "Akzidenz-Grotesk", "Helvetica", "Arial", sans-serif;
     font-size: 9pt;
     margin-top: 22.4pt;
     padding-top: 4pt;
