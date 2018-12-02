@@ -667,7 +667,7 @@ nav.sidebar {
   width: 5vw;
   margin-left: 2vw;
   margin-top: 3vh;
-  top: 150px;
+  top: 16vh;
   margin-bottom: -0.5vh;
   max-width: 300px;
   display: inline;
@@ -752,7 +752,7 @@ header > nav.sidebar a {
     margin-top: 1vh; }
 
   nav.sidebar {
-    margin-top: 12vh;
+    margin-top: 5vh;
     margin-left: 1.4vw; } }
 @media (max-width: 800px) {
   header > nav.sidebar a {
@@ -769,7 +769,7 @@ header > nav.sidebar a {
     margin-top: 3vw; } }
 @media (max-width: 800px) and (max-width: 400px) {
   header > nav.sidebar a {
-    margin-top: 6vw; } }
+    margin-top: 10vw; } }
 /*--- End of Basic Layout stuff from tufte.css ---*/
 /* -- Jekyll specific styling --*/
 .contrast {
@@ -823,7 +823,7 @@ header > nav a {
   letter-spacing: 0.15em;
   text-transform: uppercase;
   color: #011550;
-  padding-top: 1.5rem;
+  padding-top: 0rem;
   text-decoration: none;
   display: inline-block;
   margin-top: 0;
@@ -904,7 +904,7 @@ ul.footer-links li {
 .vertline2 {
   position: fixed;
   /* Style to taste */
-  top: 21vh;
+  top: 180px;
   left: 11%;
   border-left: dotted 1px #011550;
   height: 76vh;
@@ -973,9 +973,6 @@ ul.footer-links li {
   height: 100vh;
   display: inline; }
 
-@media (max-width: 1200px) {
-  .vertline7 {
-    left: 90%; } }
 .vertline8 {
   position: fixed;
   /* Style to taste */
@@ -994,6 +991,18 @@ ul.footer-links li {
   height: 100vh;
   display: inline; }
 
+@media (max-width: 1200px) {
+  .vertline6 {
+    left: 90%; }
+
+  .vertline7 {
+    left: 90.5%; }
+
+  .vertline8 {
+    left: 91.5%; }
+
+  .vertline9 {
+    left: 93.5%; } }
 .horizline {
   position: fixed;
   /* Style to taste */
