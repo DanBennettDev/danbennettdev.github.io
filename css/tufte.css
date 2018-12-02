@@ -1023,7 +1023,7 @@ body.full-width, .content-listing, ul.content-listing li.listing {
 
 h1.content-listing-header {
   font-style: normal;
-  text-transform: uppercase;
+  text-transform: none;
   letter-spacing: 0.2rem;
   font-size: 1.8rem; }
 
