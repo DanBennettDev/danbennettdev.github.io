@@ -854,7 +854,7 @@ header > nav a.active:after {
   position: absolute;
   left: -2%;
   width: 85%;
-  bottom: 0.06em; }
+  bottom: 0.11em; }
 
 header > nav a.active:hover {
   text-decoration: none; }
