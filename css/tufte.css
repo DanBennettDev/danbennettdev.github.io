@@ -104,7 +104,7 @@
   font-weight: normal;
   font-style: normal; }
 @font-face {
-  font-family: 'Futura';
+  font-family: 'futura';
   src: url("../futura_bold-webfont.woff2") format("woff2"), url("../futura_bold-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
@@ -347,7 +347,7 @@ h1 {
        margin-left: -3px;*/
   font-weight: 400;
   position: relative;
-  font-family: "Futura", "Gill Sans", "Lato", sans-serif;
+  font-family: "futura", "Gill Sans", "Lato", sans-serif;
   font-size: 3.5rem;
   color: #e6e238;
   margin-left: -4vw;
@@ -374,7 +374,7 @@ h1 {
   }*/
 h2 {
   font-style: italic;
-  font-family: "Futura", "Gill Sans", "Lato", sans-serif;
+  font-family: "futura", "Gill Sans", "Lato", sans-serif;
   font-weight: 400;
   margin-top: 1.866666666666667rem;
   margin-bottom: 0;
@@ -383,7 +383,7 @@ h2 {
 
 h3 {
   font-style: italic;
-  font-family: "Futura", "Gill Sans", "Lato", sans-serif;
+  font-family: "futura", "Gill Sans", "Lato", sans-serif;
   font-weight: 200;
   font-size: 1.6rem;
   margin-top: 2.1777777777777778rem;
@@ -690,7 +690,7 @@ nav.sidebar {
 header > nav.sidebar a {
   font-size: 1.1rem;
   font-weight: bold;
-  font-family: "Futura", "Gill Sans", "Lato", sans-serif;
+  font-family: "futura", "Gill Sans", "Lato", sans-serif;
   letter-spacing: 0em;
   text-transform: uppercase;
   color: #012180;
@@ -831,7 +831,7 @@ nav.group a.hover{
 header > nav a {
   font-size: 1.3rem;
   font-weight: bold;
-  font-family: "Futura", "Gill Sans", "Lato", sans-serif;
+  font-family: "futura", "Gill Sans", "Lato", sans-serif;
   letter-spacing: 0.15em;
   text-transform: uppercase;
   color: #012180;
