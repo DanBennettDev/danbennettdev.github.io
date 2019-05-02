@@ -105,7 +105,7 @@
   font-style: normal; }
 @font-face {
   font-family: 'futura';
-  src: url("../fonts/futura_bold-webfont.woff2") format("woff2"), url("../fonts/futura_bold-webfont.woff") format("woff");
+  src: url("../fonts/futura_bold_font-webfont.woff2") format("woff2"), url("../fonts/futura_bold_font-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 /* This file contains all the constants for colors and font styles */
