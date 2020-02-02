@@ -1,6 +1,6 @@
 ---
 layout: post
-title: projects
+title: Projects
 portfolio: yes
 mainpage: 
   order: 1
@@ -9,19 +9,17 @@ project:
   order: 1
   menuItem: yes
   
-order: 2
+order: 1
 ---
 
 <div class="ytcontainer">
 <iframe src="https://www.youtube.com/embed/uukpx8qVDoc" frameborder="0" class="ytvideo" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
 
-{% newthought "Central Pattern Generators (CPGs) are neural networks responsible for adaptive rhythmic behaviour in animals. I am interested in their potential for building creative, interactive musical systems. "%}  This page introduces and makes available the tools I developed to work with these systems creatively - in music and other creative rhythmic contexts.
-
-Simulations of CPGs are commonly used in robotics, for motor control, gait and a number of other applications.  But CPGs have rarely been used in creative situations, despite having real potential in this area. My own work shows their value for rhythm generation, and I see potential for their use building interfaces for physical interaction with rhythmic processes, and for the loose synchronisation of distinct rhythm generating units. So far I have only explored the first of these - interactive, generative, rhythm creation, in my [Neurythmic project]({{site.baseurl}}/projects/neurythmic.html), pictured in the video above. I hope others will make use the tools on this page to explore these and other ideas. 
+{% newthought "Central Pattern Generators (CPGs) are neural networks responsible for adaptive rhythmic behaviour in animals. I am interested in their potential for building creative, interactive musical systems. "%}  This page introduces CPGs and the tools I developed to work creatively with them.
 
 ## The Tools
-First the links to the tools. All of which are 0.x versions at present: they're reasonably stable now, but still subject to change.
+First the links to the tools. 
 
 * [CPG externals for MAX/MSP]({{site.baseurl}}/projects/cpg_max.html)
 
@@ -29,13 +27,21 @@ First the links to the tools. All of which are 0.x versions at present: they're 
 
 * [Neurythmic]({{site.baseurl}}/projects/neurythmic.html)
 
+All of these are 0.x versions at present: they're reasonably stable, but still subject to change. 
 
-If you're interested in updates about these tools then please sign up to [my mailing list.]({{site.baseurl}}/about/mailingList.html)
+Below I give a friendly brief intro to CPGs, but [my paper on Neurythmic](http://www.nime.org/proceedings/2018/nime2018_paper0047.pdf) has more details. 
+<!-- 
+If you're interested in updates about these tools then please sign up to [my mailing list.]({{site.baseurl}}/about/mailingList.html) -->
+
 
 ## What are CPGs?
-I'll only do a short intro here - for a more comprehensive, referenced, discussion, and a discussion of my Neurythmic software, see [my NIME paper](http://www.nime.org/proceedings/2018/nime2018_paper0047.pdf). As I say above, CPGs are biological neural networks which underlie adaptive rhythmic behaviour in animals. They are theorised to be responsible for a huge range of basic and even sophisticated behaviours, including regulation of breathing, gut peristalsis, chewing, and even gait, and it is occasionally suggested that they may contribute to quite intricate motor control.
 
-What makes all this possible is the combination in CPGs of stable oscillation at a fixed frequency, and the ability to adapt this oscillation to incoming signals. These signals can come from a variety of sources - whether from other CPGs, or from other parts of the nervous system, such as sensory signals, or the brain-stem. CPGs can thus adapt to context without conscious control, generating complex, adaptive behaviour such as when our gait rhythm recovers after stumbling over an obstacle. The property which makes this possible is called "entrainment".
+CPGs are are a kind of oscillating neural network, responsible for adaptive rhythmic behaviour in animals. They're quite different from the kind of neural networks we're most used to hearing about: those used in Machine Learning and Deep Learning. Rather than being used in learning and discrimination processes, simulations of CPGs are commonly used generatively - mostly in robotics, for motor control, gait and a number of other applications.  They are theorised to be responsible for a huge range of even quite sophisticated behaviours, including regulation of breathing, gut peristalsis, chewing, and gait, and it is occasionally suggested that they may contribute significantly to more intricate and complex motor control.
+
+CPGs have rarely been used in creative situations, despite having real potential in this area. I see potential for use in musical rhythm generation, for designing physical interactions with rhythmic processes, and for the loose synchronisation of distinct rhythm generating units. So far I have only explored the first of these - interactive, generative, rhythm creation, in my [Neurythmic project]({{site.baseurl}}/projects/neurythmic.html), pictured in the video above. I hope others will make use the tools on this page to explore these and other ideas. 
+
+
+What makes CPGs exciting for music and interaction is the combination of stable oscillation at a fixed frequency, with the ability to adapt this oscillation to incoming signals. These signals can come from a variety of sources - whether from other CPGs, or from other parts of the nervous system, such as sensory signals, or the brain-stem. CPGs can thus adapt to context without conscious control, generating complex, adaptive behaviour such as when our gait rhythm recovers after stumbling over an obstacle. The property which makes this possible is called "entrainment".
 
 For our purposes, we can treat "entrainment" as a big word for "flexible synchronisation". We have said that CPGs have their own natural frequencies, and can receive signals from external sources. If an incoming signal is strong enough, a CPG will synchronise tightly to that signal - changing its frequency to match it, moving away from its own "natural" frequency. At lower signal strengths, partial synchronisation may occur - a compromise between the CPG's natural frequency, and the incoming signal, with the resulting pattern perhaps unfolding over multiple cycles of the incoming signal. Further levels of complexity are possible if there are multiple incoming signals, or feedback connections: then a compromise between natural frequency and synchronisation to all signals is approached, resulting in increasingly complex and evolving rhythmic behaviour. 
 

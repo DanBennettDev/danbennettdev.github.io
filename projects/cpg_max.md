@@ -4,10 +4,9 @@ title: MAX/MSP CPG Externals
 portfolio: yes
 projectname: MAX/MSP CPG Externals
 project: 
-  menuItem: no
-  order: 1
-  
-order: 1
+  order: 2
+
+order: 2
 ---
 
 **Note - this is currently under construction. I'll try to add explanatory images and maybe a tutorial video in the coming weeks**

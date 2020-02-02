@@ -2,6 +2,7 @@
 layout: post
 title: On Vanishing Land
 projectname: On Vanishing Land
+portfolio: yes
 music: 
   order: 2
   menuItem: yes
@@ -19,6 +20,8 @@ Beirut Art Centre, 25-30 October 2013
 
 Music by Baron Mordant, Dolly Dolly, Ekoplekz, Farmers of Vega, Gazelle Twin, John Foxx, Pete Wiseman, Raime and Skjolbrot
 
-http://otolithgroup.org/index.php?m=project&id=148
+[Otolith Group Project Page](http://otolithgroup.org/index.php?m=project&id=148)
+<br/>
+<br/>
 
-<iframe width="55%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/59865025&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&visual=true"></iframe>
+<iframe width="55%" height="250" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/59865025&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&visual=true"></iframe>

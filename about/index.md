@@ -18,15 +18,15 @@ I run a series of additional support lectures for introductory C programming at 
 
 ### Music and Philosophy 
 
-Before computing my academic background was in philosophy, and I still have an interest in this area, particularly ethics and philosophy of cognitive science. I also make music, which you can find [here](http://skjolbrot.org/).
+Before computing my academic background was in philosophy, and I still have an interest in this area, particularly ethics and philosophy of cognitive science. I also make music, which you can find [here]({{site.baseurl}}/music/music.html).
 
-I have performed my music at gigs and festivals around Europe, and curated events at venues and galleries around the UK, including Bristol's Arnolfini Gallery and Southampton's John Hansard. I have contributed work to soundtracks for theatre and for art installation (release of some of this latter work is forthcoming in 2019 through [Hyperdub](https://hyperdub.net) records). 
 
 <!-- ![Photo Courtesy of Bruno Guastalla](cafe kino 15-05-16-4.jpg)
 Performing Rishin Singh's *Stalaktos* at Cafe Kino, Bristol (photo by Bruno Guastalla) -->
 
 
-
+<!-- 
 <div class="ytcontainer">
 <iframe src="https://player.vimeo.com/video/14901626" frameborder="0" class="ytvideo" allow="autoplay; encrypted-media" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
+ -->
