@@ -290,13 +290,16 @@ html {
 
 @media screen and (min-width: 300px) {
   html {
-    font-size: 14px; } }
+    font-size: 12px; } }
+@media screen and (min-width: 400px) {
+  html {
+    font-size: 13px; } }
 @media screen and (min-width: 600px) {
   html {
-    font-size: 15px; } }
+    font-size: 14px; } }
 @media screen and (min-width: 800px) {
   html {
-    font-size: 16px; } }
+    font-size: 15px; } }
 @media screen and (min-width: 1000px) {
   html {
     font-size: 16px; } }
@@ -677,7 +680,7 @@ label.margin-toggle:not(.sidenote-number) {
   display: none; }
 
 nav.sidebar {
-  width: 90vw;
+  width: 100%;
   margin-left: 2.5vw;
   margin-top: 1.5vh;
   display: inline;
@@ -803,7 +806,7 @@ header > nav.sidebar a {
   font-size: 80%; }
 
 header > nav.group, body footer {
-  width: 95vw;
+  width: 100%;
   margin-left: 1vw;
   margin-top: 1vh;
   margin-bottom: -0.5vh;
