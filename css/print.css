@@ -1,4 +1,22 @@
 /* This file contains all the constants for colors and font styles */
+/*//$display-font:  "Harbour", "Gill Sans", "Lato", sans-serif;*/
+/*$display-font:  "AkzidenzGrotesk", "Gill Sans", "Lato", sans-serif;*/
+/*//$text-color: #828282;
+//$bg-color: #EEE;
+//$contrast-color: #FF7171;
+//$contrast-color: #fbef62;
+
+// PINK BLUE YELLOW
+//$bg-color: #ef9bd2;
+//$text-color: #07078a;
+//$contrast-color: #ffef36;
+*/
+/*$bg-color: #7ea9a8 ;
+//$bg-color: #c59ca2;
+$text-color: #012180  ;
+$contrast-color: #e6e355;*/
+/**/
+/*$contrast-color: #FF7171;*/
 * {
   -webkit-transition: none !important;
   transition: none !important; }

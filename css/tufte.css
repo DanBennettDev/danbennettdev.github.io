@@ -6,109 +6,83 @@
 /*
 /* The README.md will show you how to set up your site along with other goodies
 /*****************************************************************************/
+/*
 @font-face {
-  font-family: ETbook;
-  src: url("../fonts/et-book/et-book-roman-line-figures/et-book-roman-line-figures.eot");
-  src: url("../fonts/et-book/et-book-roman-line-figures/et-book-roman-line-figures.eot?#iefix") format("embedded-opentype"), url("../fonts/et-book/et-book-roman-line-figures/et-book-roman-line-figures.woff") format("woff"), url("../fonts/et-book/et-book-roman-line-figures/et-book-roman-line-figures.ttf") format("truetype"), url("../fonts/et-book/et-book-roman-line-figures/et-book-roman-line-figures.svg#etbemboromanosf") format("svg");
+  font-family: 'AkzidenzGrotesk';
+  src: url("../fonts/akzidenz/AkzidenzGrotesk-Roman.woff2") format("woff2"), url("../fonts/AkzidenzGrotesk-Roman.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
+
 @font-face {
-  font-family: ETbook;
-  src: url("../fonts/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.eot");
-  src: url("../fonts/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.eot?#iefix") format("embedded-opentype"), url("../fonts/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.woff") format("woff"), url("../fonts/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.ttf") format("truetype"), url("../fonts/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.svg#etbemboromanosf") format("svg");
-  font-weight: normal;
-  font-style: italic; }
-@font-face {
-  font-family: ETbook;
-  src: url("../fonts/et-book/et-book-bold-line-figures/et-book-bold-line-figures.eot");
-  src: url("../fonts/et-book/et-book-bold-line-figures/et-book-bold-line-figures.eot?#iefix") format("embedded-opentype"), url("../fonts/et-book/et-book-bold-line-figures/et-book-bold-line-figures.woff") format("woff"), url("../fonts/et-book/et-book-bold-line-figures/et-book-bold-line-figures.ttf") format("truetype"), url("../fonts/et-book/et-book-bold-line-figures/et-book-bold-line-figures.svg#etbemboromanosf") format("svg");
-  font-weight: bold;
-  font-style: normal; }
-@font-face {
-  font-family: ETbookRomanOldStyle;
-  src: url("../fonts/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.eot");
-  src: url("../fonts/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.eot?#iefix") format("embedded-opentype"), url("../fonts/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.woff") format("woff"), url("../fonts/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.ttf") format("truetype"), url("../fonts/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.svg#etbemboromanosf") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-@font-face {
-  font-family: 'Century Schoolbook';
-  src: url("../fonts/csb/subset-CenturySchoolbook.eot");
-  src: url("../fonts/csb/subset-CenturySchoolbook.eot?#iefix") format("embedded-opentype"), url("../fonts/csb/subset-CenturySchoolbook.woff2") format("woff2"), url("../fonts/csb/subset-CenturySchoolbook.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
-@font-face {
-  font-family: 'Century Schoolbook';
-  src: url("../fonts/csb/subset-CenturySchoolbook-BoldItalic.eot");
-  src: url("../fonts/csb/subset-CenturySchoolbook-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/csb/subset-CenturySchoolbook-BoldItalic.woff2") format("woff2"), url("../fonts/csb/subset-CenturySchoolbook-BoldItalic.woff") format("woff");
-  font-weight: bold;
-  font-style: italic; }
-@font-face {
-  font-family: 'Century Schoolbook';
-  src: url("../fonts/csb/subset-CenturySchoolbook-Bold.eot");
-  src: url("../fonts/csb/subset-CenturySchoolbook-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/csb/subset-CenturySchoolbook-Bold.woff2") format("woff2"), url("../fonts/csb/subset-CenturySchoolbook-Bold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal; }
-@font-face {
-  font-family: 'Century Schoolbook';
-  src: url("../fonts/csb/subset-CenturySchoolbook-Italic.eot");
-  src: url("../fonts/csb/subset-CenturySchoolbook-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/csb/subset-CenturySchoolbook-Italic.woff2") format("woff2"), url("../fonts/csb/subset-CenturySchoolbook-Italic.woff") format("woff");
+  font-family: 'AkzidenzGrotesk';
+  src: url("../fonts/akzidenz/AkzidenzGrotesk-LightOsF.woff2") format("woff2"), url("../fonts/AkzidenzGroteskBE-It.woff") format("woff");
   font-weight: normal;
   font-style: italic; }
+*/
 @font-face {
-  font-family: 'Gill Sans MT';
-  src: url("../fonts/gill/subset-GillSansMT-BoldItalic.eot");
-  src: url("../fonts/gill/subset-GillSansMT-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/gill/subset-GillSansMT-BoldItalic.woff2") format("woff2"), url("../fonts/gill/subset-GillSansMT-BoldItalic.woff") format("woff");
-  font-weight: bold;
-  font-style: italic; }
-@font-face {
-  font-family: 'Gill Sans MT';
-  src: url("../fonts/gill/subset-GillSansMT.eot");
-  src: url("../fonts/gill/subset-GillSansMT.eot?#iefix") format("embedded-opentype"), url("../fonts/gill/subset-GillSansMT.woff2") format("woff2"), url("../fonts/gill/subset-GillSansMT.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
-@font-face {
-  font-family: 'Gill Sans MT';
-  src: url("../fonts/gill/subset-GillSansMT-Bold.eot");
-  src: url("../fonts/gill/subset-GillSansMT-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/gill/subset-GillSansMT-Bold.woff2") format("woff2"), url("../fonts/gill/subset-GillSansMT-Bold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal; }
-@font-face {
-  font-family: 'Gill Sans MT';
-  src: url("../fonts/gill/subset-GillSansMT-Italic.eot");
-  src: url("../fonts/gill/subset-GillSansMT-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/gill/subset-GillSansMT-Italic.woff2") format("woff2"), url("../fonts/gill/subset-GillSansMT-Italic.woff") format("woff");
-  font-weight: normal;
-  font-style: italic; }
-@font-face {
-  font-family: 'Harbour';
-  src: url("../fonts/harbour-bold-webfont.woff2") format("woff2"), url("../fonts/harbour-bold-webfont.woff") format("woff");
+  font-family: 'AkzidenzGrotesk';
+  src: url("../fonts/akzidenz/AkzidenzGrotesk-LightOsF.woff2") format("woff2"), url("../fonts/AkzidenzGrotesk-Bold.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: 'AkzidenzGrotesk';
-  src: url("../fonts/AkzidenzGrotesk-Roman.woff2") format("woff2"), url("../fonts/AkzidenzGrotesk-Roman.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
-@font-face {
-  font-family: 'AkzidenzGrotesk';
-  src: url("../fonts/AkzidenzGrotesk-Bold.woff2") format("woff2"), url("../fonts/AkzidenzGrotesk-Bold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal; }
-@font-face {
-  font-family: 'AkzidenzGrotesk';
-  src: url("../fonts/AkzidenzGroteskBE-It.woff2") format("woff2"), url("../fonts/AkzidenzGroteskBE-It.woff") format("woff");
+  src: url("../fonts/akzidenz/AkzidenzGrotesk-LightItalicOsF.woff2") format("woff2"), url("../fonts/AkzidenzGroteskBE-It.woff") format("woff");
   font-weight: normal;
   font-style: italic; }
 @font-face {
-  font-family: 'adam.cg_proregular';
-  src: url("../fonts/adam.cg_pro-webfont.woff2") format("woff2"), url("../fonts/adam.cg_pro-webfont.woff") format("woff");
+  font-family: 'AkzidenzGrotesk';
+  src: url("../fonts/akzidenz/AkzidenzGrotesk-BoldItalic.woff2") format("woff2"), url("../fonts/AkzidenzGroteskBE-It.woff") format("woff");
+  font-weight: bold;
+  font-style: italic; }
+@font-face {
+  font-family: 'AkzidenzGrotesk';
+  src: url("../fonts/akzidenz/AkzidenzGrotesk-Super.woff2") format("woff2"), url("../fonts/AkzidenzGrotesk-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal; }
+@font-face {
+  font-family: 'AkzidenzGrotesk-Med';
+  src: url("../fonts/akzidenz/AkzidenzGrotesk-Medium.woff2") format("woff2"), url("../fonts/AkzidenzGrotesk-Bold.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
+@font-face {
+  font-family: 'AkzidenzGrotesk-Med';
+  src: url("../fonts/akzidenz/AkzidenzGrotesk-Medium.woff2") format("woff2"), url("../fonts/AkzidenzGrotesk-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal; }
+@font-face {
+  font-family: 'AkzidenzGrotesk-condensed';
+  src: url("../fonts/akzidenz/AkzidenzGrotesk-ExtraBoldCondAlt.woff2") format("woff2"), url("../fonts/AkzidenzGrotesk-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal; }
+@font-face {
+  font-family: 'AkzidenzGrotesk-condensed';
+  src: url("../fonts/akzidenz/AkzidenzGrotesk-BoldCondItalic.woff2") format("woff2"), url("../fonts/AkzidenzGrotesk-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: italic; }
 @font-face {
   font-family: 'futura';
   src: url("../fonts/futura_bold_font-webfont.woff2") format("woff2"), url("../fonts/futura_bold_font-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 /* This file contains all the constants for colors and font styles */
+/*//$display-font:  "Harbour", "Gill Sans", "Lato", sans-serif;*/
+/*$display-font:  "AkzidenzGrotesk", "Gill Sans", "Lato", sans-serif;*/
+/*//$text-color: #828282;
+//$bg-color: #EEE;
+//$contrast-color: #FF7171;
+//$contrast-color: #fbef62;
+
+// PINK BLUE YELLOW
+//$bg-color: #ef9bd2;
+//$text-color: #07078a;
+//$contrast-color: #ffef36;
+*/
+/*$bg-color: #7ea9a8 ;
+//$bg-color: #c59ca2;
+$text-color: #012180  ;
+$contrast-color: #e6e355;*/
+/**/
+/*$contrast-color: #FF7171;*/
 /**
  * Syntax highlighting styles
  */
@@ -265,7 +239,7 @@ html, body {
   height: 100%; }
 
 html {
-  text-align: baseline;
+  /*text-align: baseline;*/
   font-size: 11px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
@@ -316,11 +290,14 @@ html {
   font-size: 1.3rem; }
 
 a {
-  color: #e6e355;
+  color: rgba(252, 64, 64, 0.7);
   text-decoration: none; }
 
+strong {
+  font-family: "AkzidenzGrotesk-Med", "Helvetica", "Arial", sans-serif; }
+
 p > a {
-  color: #012180;
+  color: #828282;
   text-decoration: none;
   position: relative;
  /*     text-decoration: underline;
@@ -331,7 +308,7 @@ p > a {
   white-space: nowrap;
   /*border-bottom: 2px dotted $contrast-color;*/ }
   p > a:after {
-    border-bottom: 0.1em dotted rgba(255, 239, 54, 0.7);
+    border-bottom: 0.1em dotted rgba(252, 64, 64, 0.7);
     z-index: -1;
     content: "";
     position: absolute;
@@ -339,16 +316,16 @@ p > a {
     width: 90%;
     bottom: 0em; }
   p > a:hover:after {
-    border-bottom: 0.15em solid rgba(255, 239, 54, 0.7); }
+    border-bottom: 0.15em solid rgba(252, 64, 64, 0.7); }
 
 body {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
   padding-left: 0;
-  font-family: "Century Schoolbook", ETbook, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-  background-color: #7ea9a8;
-  color: #012180;
+  font-family: "AkzidenzGrotesk", "Helvetica", "Arial", sans-serif;
+  background-color: #EEE;
+  color: #828282;
   /*max-width: 1400px;*/
   counter-reset: sidenote-counter; }
 
@@ -356,50 +333,35 @@ h1 {
   /*      margin-top: 0rem;
        margin-bottom: -1.0rem;
        margin-left: -3px;*/
-  font-weight: 400;
+  font-weight: bold;
   position: relative;
-  font-family: "futura", "Gill Sans", "Lato", sans-serif;
+  font-family: "AkzidenzGrotesk", "Helvetica", "Arial", sans-serif;
   font-size: 4.2rem;
-  color: #e6e238;
+  color: rgba(252, 64, 64, 0.7);
   /*margin-left: -4vw;*/
   margin-bottom: -0.2em;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  letter-spacing: -0.1rem; }
 
-/*    h1:after {
-    border-bottom: 0.1em solid rgba(255, 239, 54, 0.7);
-    z-index: -1;
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0.025em;
-  }*/
-/*    h1:before {
-    border-bottom: 0.05em solid rgba(0, 0, 0, 1);
-    z-index: 0;
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0.05em;
-  }*/
 h2 {
   font-style: italic;
-  font-family: "futura", "Gill Sans", "Lato", sans-serif;
-  font-weight: 400;
+  font-family: "AkzidenzGrotesk", "Helvetica", "Arial", sans-serif;
+  font-weight: bold;
   margin-top: 1.866666666666667rem;
   margin-bottom: 0;
   font-size: 2.1rem;
-  line-height: 0.933333333333333; }
+  line-height: 0.933333333333333;
+  color: rgba(252, 64, 64, 0.7); }
 
 h3 {
   font-style: italic;
-  font-family: "futura", "Gill Sans", "Lato", sans-serif;
+  font-family: "AkzidenzGrotesk", "Helvetica", "Arial", sans-serif;
   font-weight: 200;
   font-size: 1.6rem;
   margin-top: 2.1777777777777778rem;
   margin-bottom: 0;
-  line-height: 1.08888888888889; }
+  line-height: 1.08888888888889;
+  color: rgba(252, 64, 64, 0.7); }
 
 p .subtitle {
   font-style: italic;
@@ -410,7 +372,7 @@ p .subtitle {
   line-height: 1.08888888888889; }
 
 p, ol, ul {
-  font-size: 1.3rem; }
+  font-size: 1.65rem; }
 
 p, li {
   line-height: 2rem;
@@ -438,7 +400,7 @@ blockquote footer {
   text-align: right; }
 
 .sans {
-  font-family: "Century Schoolbook", ETbook, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+  font-family: "AkzidenzGrotesk", "Helvetica", "Arial", sans-serif;
   letter-spacing: .03em; }
 
 pre, pre code, p code, p pre code {
@@ -455,11 +417,11 @@ table, table.booktabs {
   width: auto;
   margin: 0 auto;
   border-spacing: 0px;
-  border-top: 2px solid #333333;
-  border-bottom: 2px solid #333333; }
+  border-top: 2px solid #828282;
+  border-bottom: 2px solid #828282; }
 
 .booktabs th, th {
-  border-bottom: 1px solid #333333;
+  border-bottom: 1px solid #828282;
   padding: 0.65ex 0.5em 0.4ex 0.5em;
   font-weight: normal;
   text-align: center; }
@@ -469,7 +431,7 @@ th, td {
   line-height: 1.71428571; }
 
 .booktabs th.cmid, th {
-  border-bottom: 1px solid #737373; }
+  border-bottom: 1px solid #c2c2c2; }
 
 .booktabs th.nocmid {
   border-bottom: none; }
@@ -522,7 +484,7 @@ article {
   position: relative;
   left: 1.5vw;
   width: 90vw;
-  padding: 1 rem 0rem 2.5rem 0rem;
+  padding: 1rem 0rem 2.5rem 0rem;
   display: block;
   clear: both; }
 
@@ -591,8 +553,8 @@ blockquote .sidenote, blockquote .marginnote {
 
 .sidenote-number:after, .sidenote:before {
   content: counter(sidenote-counter) " ";
-  font-family: et-bembo-roman-old-style;
-  color: #e6e355;
+  font-family: "AkzidenzGrotesk", "Helvetica", "Arial", sans-serif;
+  color: rgba(252, 64, 64, 0.7);
   position: relative;
   vertical-align: baseline; }
 
@@ -604,7 +566,7 @@ blockquote .sidenote, blockquote .marginnote {
 
 .sidenote:before {
   content: counter(sidenote-counter) ". ";
-  color: #e6e355;
+  color: rgba(252, 64, 64, 0.7);
   top: 0rem; }
 
 p, footer, div.table-wrapper, hr, div.mathblock {
@@ -615,22 +577,22 @@ hr {
   overflow: visible;
   /* For IE */
   margin-top: 3em;
-  margin-bottom: -0.5em;
+  margin-bottom: 0.5em;
   padding: 0;
   border: none;
-  border-top: medium double #333;
-  color: #333;
+  border-top: 1px solid #828282;
+  color: #828282;
   text-align: center; }
 
-hr:after {
-  content: "|";
-  display: inline-block;
-  position: relative;
-  top: -0.7em;
-  font-size: 1.5em;
-  padding: 0 0.25em;
-  background: #7ea9a8; }
-
+/*hr:after {
+    content: "|";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: $bg-color;
+}*/
 div.table-wrapper {
   overflow-x: auto; }
 
@@ -668,7 +630,9 @@ pre, pre code, p pre code {
 
 span.newthought {
   font-size: 1.2em;
-  letter-spacing: 0.05rem; }
+  font-size: 1.01em;
+  font-family: "AkzidenzGrotesk-Med", "Helvetica", "Arial", sans-serif;
+  letter-spacing: -0.03rem; }
 
 input.margin-toggle {
   display: none; }
@@ -681,43 +645,12 @@ label.margin-toggle:not(.sidenote-number) {
 
 nav.sidebar {
   width: 100%;
-  margin-left: 2.5vw;
-  margin-top: 1.5vh;
+  margin-left: 2vw;
+  margin-top: 0.1vh;
   display: inline;
   float: left;
   position: inherit;
   white-space: nowrap; }
-
-/*nav.sidebar {
-  width: 5vw;
-  margin-left: 2vw;
-  margin-top: 3vh;
-  top: 16vh;
-  margin-bottom: -0.5vh;
-  max-width: 300px;
-  display: inline;
-  float: left;
-  position: absolute;
-  white-space: nowrap;
-}
-*/
-header > nav.sidebar a {
-  font-size: 1.1rem;
-  font-weight: bold;
-  font-family: "futura", "Gill Sans", "Lato", sans-serif;
-  letter-spacing: 0em;
-  text-transform: uppercase;
-  color: #012180;
-  padding-top: 0.4rem;
-  text-decoration: none;
-  display: inline-block;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-right: 2rem;
-  vertical-align: baseline;
-  position: relative;
-  float: left;
-  z-index: 100; }
 
 /*@media (max-width: 1200px) { label.margin-toggle:not(.sidenote-number) { display: inline; color: $contrast-color; }
                             .sidenote, .marginnote { display: none; }
@@ -800,7 +733,7 @@ header > nav.sidebar a {
 /*--- End of Basic Layout stuff from tufte.css ---*/
 /* -- Jekyll specific styling --*/
 .contrast {
-  color: #e6e355; }
+  color: rgba(252, 64, 64, 0.7); }
 
 .smaller {
   font-size: 80%; }
@@ -826,30 +759,13 @@ body footer {
   position: relative;
   bottom: 0; }
 
-/*nav.group a.active:before{ content:"\0003c\000a0"; position: relative; left: 0.6rem; top: 0.1rem; color: $text-color;} // escaped unicode for the carats and then a space on active menu links*/
-/*nav.group a.active:after{ content:"\000a0\0003e" ; position: relative; left: -0.6rem; top: 0.1rem; color: $text-color;}*/
-/*nav.group a.active:after{ 
-    border-bottom: 1em solid rgba(255, 239, 54, 0.7);
-    z-index: -1;
-    content: "";
-    position: absolute;
-    left: 0%;
-    width: 90%;
-    bottom: -1em;
-  }
-nav.group a.hover{ 
-  text-decoration: underline;
-  text-decoration-style:dotted;
-  text-decoration-color: #e6e238;
-  }
-*/
 header > nav a {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: bold;
-  font-family: "futura", "Gill Sans", "Lato", sans-serif;
-  letter-spacing: 0.15em;
+  font-family: "AkzidenzGrotesk", "Helvetica", "Arial", sans-serif;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: #012180;
+  color: #828282;
   padding-top: 0rem;
   text-decoration: none;
   display: inline-block;
@@ -861,15 +777,65 @@ header > nav a {
   float: left;
   z-index: 100; }
 
+header > nav a img {
+  height: 5rem;
+  position: relative;
+  max-width: 100%;
+  top: -1.5rem; }
+
+header > nav.sidebar a {
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: "AkzidenzGrotesk", "Helvetica", "Arial", sans-serif;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #828282;
+  padding-top: 0.4rem;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-right: 2rem;
+  vertical-align: baseline;
+  position: relative;
+  float: left;
+  z-index: 100; }
+
 header > nav a.active:after {
   /*border-bottom: 1em solid rgba(239, 155, 210, 1);*/
-  border-bottom: 1em solid rgba(255, 239, 54, 0.7);
+  border-bottom: 1.65em solid rgba(252, 64, 64, 0.7);
   z-index: -1;
   content: "";
   position: absolute;
-  left: -2%;
+  left: -0.25rem;
   width: 85%;
-  bottom: 0.11em; }
+  bottom: .1rem; }
+
+header > nav.group a.active:after {
+  /*border-bottom: 1em solid rgba(239, 155, 210, 1);*/
+  border-bottom: 1.655rem solid #ff7171;
+  z-index: -1;
+  content: "";
+  position: absolute;
+  left: -0.25rem;
+  width: 100%;
+  bottom: .1rem; }
+
+header > nav.group a.active {
+  color: #EEE; }
+
+header > nav.sidebar a.active:after {
+  /*border-bottom: 1em solid rgba(239, 155, 210, 1);*/
+  border-bottom: 1.4rem solid #ff7171;
+  z-index: -1;
+  content: "";
+  position: absolute;
+  left: -0.15rem;
+  width: 100%;
+  bottom: .05rem; }
+
+header > nav.sidebar a.active {
+  color: #EEE; }
 
 header > nav a.active:hover {
   text-decoration: none; }
@@ -877,18 +843,12 @@ header > nav a.active:hover {
 header > nav a.hover {
   text-decoration: underline;
   text-decoration-style: dotted;
-  text-decoration-color: #e6e238; }
+  text-decoration-color: rgba(252, 64, 64, 0.7); }
 
 header > nav a:hover {
   text-decoration: underline;
   text-decoration-style: solid;
-  text-decoration-color: #e6e238; }
-
-header > nav a img {
-  height: 5rem;
-  position: relative;
-  max-width: 100%;
-  top: -1.5rem; }
+  text-decoration-color: rgba(252, 64, 64, 0.7); }
 
 ul.footer-links, .credits {
   list-style: none;
@@ -905,18 +865,18 @@ ul.footer-links li {
   position: absolute; }
 
 .credits {
-  font-family: "Century Schoolbook", ETbook, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+  font-family: "AkzidenzGrotesk", "Helvetica", "Arial", sans-serif;
   margin-left: 10.5vw;
   margin-bottom: 1em;
   top: 1em; }
   .credits a {
-    color: #e6e355; }
+    color: rgba(252, 64, 64, 0.7); }
 
 .vertline0 {
   position: fixed;
   /* Style to taste */
   left: 1.5vw;
-  border-left: dotted 1px #012180;
+  border-left: dotted 1px #828282;
   height: 100%;
   display: inline; }
 
@@ -924,7 +884,7 @@ ul.footer-links li {
   position: fixed;
   /* Style to taste */
   left: 1.2vw;
-  border-left: dotted 1px #e6e355;
+  border-left: dotted 1px rgba(252, 64, 64, 0.7);
   height: 100vh;
   display: inline; }
 
@@ -933,7 +893,7 @@ ul.footer-links li {
   /* Style to taste */
   top: 180px;
   left: 11%;
-  border-left: dotted 1px #012180;
+  border-left: dotted 1px #828282;
   height: 76vh;
   display: inline; }
 
@@ -941,7 +901,7 @@ ul.footer-links li {
   position: fixed;
   /* Style to taste */
   left: 15vw;
-  border-left: dotted 1px #e6e355;
+  border-left: dotted 1px rgba(252, 64, 64, 0.7);
   height: 74vh;
   display: inline;
   top: 26vh; }
@@ -950,7 +910,7 @@ ul.footer-links li {
   position: fixed;
   /* Style to taste */
   left: 22vw;
-  border-left: dotted 1px #e6e355;
+  border-left: dotted 1px rgba(252, 64, 64, 0.7);
   height: 40vh;
   display: inline;
   top: 18vh; }
@@ -959,7 +919,7 @@ ul.footer-links li {
   position: absolute;
   /* Style to taste */
   left: 22.1vw;
-  border-left: dotted 1px #e6e355;
+  border-left: dotted 1px rgba(252, 64, 64, 0.7);
   height: 60vh;
   display: inline;
   top: 13vh; }
@@ -968,7 +928,7 @@ ul.footer-links li {
   position: absolute;
   /* Style to taste */
   left: 42vw;
-  border-left: dotted 1px #e6e355;
+  border-left: dotted 1px rgba(252, 64, 64, 0.7);
   height: 40vh;
   display: inline;
   top: 34vh; }
@@ -977,7 +937,7 @@ ul.footer-links li {
   position: fixed;
   /* Style to taste */
   left: 42.2vw;
-  border-left: dotted 1px #e6e355;
+  border-left: dotted 1px rgba(252, 64, 64, 0.7);
   height: 70vh;
   display: inline;
   top: 14vh; }
@@ -987,7 +947,7 @@ ul.footer-links li {
   /* Style to taste */
   top: 0vh;
   left: 59.7%;
-  border-left: dotted 1px #e6e355;
+  border-left: dotted 1px rgba(252, 64, 64, 0.7);
   height: 100vh;
   display: inline; }
 
@@ -996,7 +956,7 @@ ul.footer-links li {
   /* Style to taste */
   top: 0vh;
   left: 59.2%;
-  border-left: dotted 1px #e6e238;
+  border-left: dotted 1px rgba(252, 64, 64, 0.7);
   height: 100vh;
   display: inline; }
 
@@ -1005,7 +965,7 @@ ul.footer-links li {
   /* Style to taste */
   top: 0vh;
   left: 60.9%;
-  border-left: dotted 1px #e6e355;
+  border-left: dotted 1px rgba(252, 64, 64, 0.7);
   height: 100vh;
   display: inline; }
 
@@ -1014,7 +974,7 @@ ul.footer-links li {
   /* Style to taste */
   top: 0vh;
   left: 63.4%;
-  border-left: dotted 1px #e6e355;
+  border-left: dotted 1px rgba(252, 64, 64, 0.7);
   height: 100vh;
   display: inline; }
 
@@ -1031,7 +991,7 @@ ul.footer-links li {
   position: absolute;
   top: 17vh;
   left: 0vw;
-  border: dashed 1px #e6e355;
+  border: dashed 1px rgba(252, 64, 64, 0.7);
   width: 100%;
   display: inline; }
 
@@ -1041,7 +1001,7 @@ ul.footer-links li {
   position: absolute;
   top: 60vh;
   left: 0vw;
-  border: dashed 1px #e6e355;
+  border: dashed 1px rgba(252, 64, 64, 0.7);
   width: 100%;
   display: inline; }
 
@@ -1113,7 +1073,7 @@ hr.slender {
     font-size: 12pt; }
 
   html body span.print-footer {
-    font-family: "Century Schoolbook", ETbook, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    font-family: "AkzidenzGrotesk", "Helvetica", "Arial", sans-serif;
     font-size: 9pt;
     margin-top: 22.4pt;
     padding-top: 4pt;
@@ -1155,7 +1115,7 @@ hr.slender {
   font-variant: normal;
   text-transform: none;
   line-height: 1;
-  color: #e6e355;
+  color: rgba(252, 64, 64, 0.7);
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
