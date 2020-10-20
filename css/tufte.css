@@ -646,7 +646,8 @@ label.margin-toggle:not(.sidenote-number) {
 nav.sidebar {
   width: 100%;
   margin-left: 2vw;
-  margin-top: 0.1vh;
+  margin-top: 0.75vh;
+  margin-bottom: 0.5vh;
   display: inline;
   float: left;
   position: inherit;
@@ -771,7 +772,8 @@ header > nav a {
   display: inline-block;
   margin-top: 0;
   margin-bottom: 0;
-  padding-right: 1rem;
+  margin-right: 1.5rem;
+  /*padding-right: 1rem;*/
   vertical-align: baseline;
   position: relative;
   float: left;
@@ -790,53 +792,69 @@ header > nav.sidebar a {
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: #828282;
-  padding-top: 0.4rem;
+  /*padding-top: 0;*/
   text-decoration: none;
   display: inline-block;
-  margin-top: 0;
+  margin-top: 0.4rem;
   margin-bottom: 0;
-  padding-right: 2rem;
+  margin-right: 1.5rem;
   vertical-align: baseline;
   position: relative;
   float: left;
   z-index: 100; }
 
-header > nav a.active:after {
-  /*border-bottom: 1em solid rgba(239, 155, 210, 1);*/
-  border-bottom: 1.65em solid rgba(252, 64, 64, 0.7);
-  z-index: -1;
-  content: "";
-  position: absolute;
+/*header > nav  a.active:after{ 
+    border-bottom: 1.65em solid $contrast-color;
+    z-index: -1;
+    content: "";
+    position: absolute;
   left: -0.25rem;
-  width: 85%;
-  bottom: .1rem; }
-
-header > nav.group a.active:after {
-  /*border-bottom: 1em solid rgba(239, 155, 210, 1);*/
-  border-bottom: 1.655rem solid #ff7171;
+    width: 85%;
+    bottom: .1rem; 
+  }*/
+/*header > nav.group a.active:after {
+  border-bottom: 1.655rem solid rgb(255, 113, 113);
   z-index: -1;
   content: "";
   position: absolute;
   left: -0.25rem;
   width: 100%;
   bottom: .1rem; }
-
+*/
 header > nav.group a.active {
-  color: #EEE; }
+  color: #EEE;
+  display: table;
+  /* keep the background color wrapped tight */
+  margin: 0px 1.5rem 0px auto;
+  /* keep the table centered */
+  padding: 0px 2px 0px 4px;
+  background-color: rgba(252, 64, 64, 0.7); }
+
+header > nav.sidebar a.active {
+  color: #EEE;
+  display: table;
+  /* keep the background color wrapped tight */
+  margin: 0.4rem 1.5rem 0px auto;
+  /* keep the table centered */
+  padding: 0px 3px 0px 3px;
+  background-color: rgba(252, 64, 64, 0.7); }
+
+/*
 
 header > nav.sidebar a.active:after {
-  /*border-bottom: 1em solid rgba(239, 155, 210, 1);*/
-  border-bottom: 1.4rem solid #ff7171;
+  border-bottom: 1.4rem solid rgb(255, 113, 113);
   z-index: -1;
   content: "";
   position: absolute;
   left: -0.15rem;
   width: 100%;
-  bottom: .05rem; }
-
+  bottom: .05rem; 
+}
 header > nav.sidebar a.active {
-  color: #EEE; }
+  color: #EEE;
+}
 
+*/
 header > nav a.active:hover {
   text-decoration: none; }
 
