@@ -82,6 +82,7 @@
 $text-color: #012180  ;
 $contrast-color: #e6e355;*/
 /**/
+/*$text-color: #828282;*/
 /*$contrast-color: #FF7171;*/
 /**
  * Syntax highlighting styles
@@ -297,7 +298,7 @@ strong {
   font-family: "AkzidenzGrotesk-Med", "Helvetica", "Arial", sans-serif; }
 
 p > a {
-  color: #828282;
+  color: #8071c8;
   text-decoration: none;
   position: relative;
  /*     text-decoration: underline;
@@ -325,7 +326,7 @@ body {
   padding-left: 0;
   font-family: "AkzidenzGrotesk", "Helvetica", "Arial", sans-serif;
   background-color: #EEE;
-  color: #828282;
+  color: #8071c8;
   /*max-width: 1400px;*/
   counter-reset: sidenote-counter; }
 
@@ -580,8 +581,8 @@ hr {
   margin-bottom: 0.5em;
   padding: 0;
   border: none;
-  border-top: 1px solid #828282;
-  color: #828282;
+  border-top: 1px solid #8071c8;
+  color: #8071c8;
   text-align: center; }
 
 /*hr:after {
@@ -766,7 +767,7 @@ header > nav a {
   font-family: "AkzidenzGrotesk", "Helvetica", "Arial", sans-serif;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: #828282;
+  color: #8071c8;
   padding-top: 0rem;
   text-decoration: none;
   display: inline-block;
@@ -791,7 +792,7 @@ header > nav.sidebar a {
   font-family: "AkzidenzGrotesk", "Helvetica", "Arial", sans-serif;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: #828282;
+  color: #8071c8;
   /*padding-top: 0;*/
   text-decoration: none;
   display: inline-block;
@@ -894,7 +895,7 @@ ul.footer-links li {
   position: fixed;
   /* Style to taste */
   left: 1.5vw;
-  border-left: dotted 1px #828282;
+  border-left: dotted 1px #8071c8;
   height: 100%;
   display: inline; }
 
@@ -911,7 +912,7 @@ ul.footer-links li {
   /* Style to taste */
   top: 180px;
   left: 11%;
-  border-left: dotted 1px #828282;
+  border-left: dotted 1px #8071c8;
   height: 76vh;
   display: inline; }
 
