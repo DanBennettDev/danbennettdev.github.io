@@ -1,0 +1,28 @@
+baseurl:
+title: Daniel Bennett
+subtitle: HCI researcher, musician, developer
+author: Daniel Bennett 
+simple_search: http://google.com/search
+description: homepage of Daniel Bennett HCI researcher, musician, developer
+name: Daniel Bennett
+markdown: kramdown
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+permalink: /articles/:short_year/:title
+timezone: England/London
+excerpt_separator: <!--more-->  # you can specify your own separator, of course.
+exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'UploadToGithub.Rakefile', 'README.md']
+post:
+  template: _post.txt
+  extension: md
+page:
+  template: _page.txt
+  extension: md
+editor: gvim
+git:
+  branch: master
+transfer:
+  command: rsync
+  settings: -av
+  source: _site/
+  destination: ~/Git/clayh53.github.com/
+highlighter: rouge

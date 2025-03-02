@@ -1,0 +1,48 @@
+/* This file contains all the constants for colors and font styles */
+
+$display-font: "AkzidenzGrotesk", "Helvetica", "Arial", sans-serif;
+//$body-font: "AkzidenzGrotesk", "Helvetica", "Arial", sans-serif;
+$sans-font: "AkzidenzGrotesk", "Helvetica", "Arial", sans-serif;
+
+$body-font: "AkzidenzGrotesk", "Helvetica", "Arial", sans-serif;
+$body-emph-font: "AkzidenzGrotesk-Med", "Helvetica", "Arial", sans-serif;
+
+// Note that Gill Sans is the top of the stack and corresponds to what is used in Tufte's books
+// However, it is not a free font, so if it is not present on the computer that is viewing the webpage
+// The free Google 'Lato' font is used instead. It is similar.
+/*//$display-font:  "Harbour", "Gill Sans", "Lato", sans-serif;*/
+/*$display-font:  "AkzidenzGrotesk", "Gill Sans", "Lato", sans-serif;*/
+$code-font: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+$url-font: "Lucida Console", "Lucida Sans Typewriter", Monaco, monospace;
+
+
+/*//$text-color: #828282;
+//$bg-color: #EEE;
+//$contrast-color: #FF7171;
+//$contrast-color: #fbef62;
+
+// PINK BLUE YELLOW
+//$bg-color: #ef9bd2;
+//$text-color: #07078a;
+//$contrast-color: #ffef36;
+*/
+
+// PINK BLUE YELLOW
+/*$bg-color: #7ea9a8 ;
+//$bg-color: #c59ca2;
+$text-color: #012180  ;
+$contrast-color: #e6e355;*/
+
+
+/**/
+$text-color: #828282;
+$bg-color: #EEE;
+/*$contrast-color: #FF7171;*/
+$contrast-color: rgba(252,64,64,0.7);
+
+
+$border-color: #828282;
+$link-style: color; // choices are 'color' or 'underline'. Default is color using $contrast-color set above
+
+
+
