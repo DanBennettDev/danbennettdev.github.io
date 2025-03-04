@@ -21,9 +21,9 @@
   <link rel="stylesheet" type="text/css" href="/css/tufte.css">
   <!-- <link rel="stylesheet" type="text/css" href="/css/print.css" media="print"> -->
 
-  <link rel="canonical" href="/projects/cpg_max.html">
+  <link rel="canonical" href="http://localhost:4000/projects/cpg_max.html">
 
-  <link rel="alternate" type="application/rss+xml" title="" href="/feed.xml" />
+  <link rel="alternate" type="application/rss+xml" title="" href="http://localhost:4000/feed.xml" />
 </head>
 
   <body>
@@ -57,7 +57,13 @@
   	
 		
 		    
-		      <a href="/complexity/">Complexity</a>
+		      <a href="/projects/autonomy.html">Projects</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/projects/multifractality.html">Projects</a>
 		    
 	    
   	
@@ -67,13 +73,7 @@
 		    
 	    
   	
-		
-		    
-		      <a href="/about/">About</a>
-		    
-	    
-  	
-    <a href="/DanBennett_academicCV.pdf">CV</a>
+    <a href="http://localhost:4000/DanBennett_academicCV.pdf">CV</a>
 	</nav>
 
 
@@ -81,6 +81,18 @@
 
         
     
+    
+    
+    
+        
+          <a href="/projects/autonomy.html">User Autonomy</a>
+        
+    
+    
+    
+        
+          <a href="/projects/multifractality.html">Dynamical Measures of Control</a>
+        
     
     
     
@@ -93,7 +105,7 @@
     
     
         
-          <a href="/projects/maxmsp.html">max msp</a>
+          <a href="/projects/maxmsp.html">Audio DSP</a>
         
     
     
@@ -199,8 +211,8 @@ Freedom sets the strength of the quantiser If you increase freedom this means le
   <li><strong>You could use cpg.network~ as weird oscillator bank</strong> (disconnect the frequency control coming from the GUI). This may eat your CPU at the moment - In future updates I’ll add an external optimised for signal rate usage.</li>
   <li><strong>You could also use external signals</strong>, to make the network entrain to other sounds - e.g. low frequency control signals, or audio signals.  Some sources of control signal will need to be conditioned before use to get good results. some thoughts here:<br />
  You will probably want to scale input signals to within a -1 to 1 range (and possibly smaller than that).<br />
- Persistent non-zero signals will affect node cycles, and if high enough cause nodes to halt.<br />
- As such you may wish to do some waveshaping (e.g. sigmoid function). t might be helpful to test ideas out with node_basic, or node_freq first and observe the effects on the waveform.</li>
+  Persistent non-zero signals will affect node cycles, and if high enough cause nodes to halt.<br />
+  As such you may wish to do some waveshaping (e.g. sigmoid function). t might be helpful to test ideas out with node_basic, or node_freq first and observe the effects on the waveform.</li>
 </ul>
 
 <h2 id="other-hacking">Other hacking:</h2>
