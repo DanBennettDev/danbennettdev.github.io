@@ -476,11 +476,11 @@ p .subtitle {
 }
 
 p, ol, ul {
-  font-size: 1.65rem;
+  font-size: 1.35rem;
 }
 
 p, li {
-  line-height: 2rem;
+  line-height: 1.65rem;
   margin-top: 1.4rem;
   padding-right: 2rem;
   vertical-align: baseline;
@@ -654,7 +654,7 @@ figure.fullwidth figcaption {
 img {
   display: block;
   width: 90vw;
-  max-width: 900px;
+  max-width: 750px;
   height: auto;
   margin-left: 0vw;
   margin-right: auto;
@@ -708,7 +708,7 @@ blockquote .sidenote, blockquote .marginnote {
 
 p, footer, div.table-wrapper, hr, div.mathblock {
   width: 90vw;
-  max-width: 900px;
+  max-width: 750px;
 }
 
 hr {
