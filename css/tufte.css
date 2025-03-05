@@ -451,7 +451,8 @@ h2 {
   margin-top: 1.8666666667rem;
   margin-bottom: 0;
   font-size: 2.1rem;
-  line-height: 0.9333333333;
+  max-width: 750px;
+  line-height: 1.2;
   color: rgba(252, 64, 64, 0.7);
 }
 
@@ -460,6 +461,7 @@ h3 {
   font-family: "AkzidenzGrotesk", "Helvetica", "Arial", sans-serif;
   font-weight: 200;
   font-size: 1.6rem;
+  max-width: 750px;
   margin-top: 2.1777777778rem;
   margin-bottom: 0;
   line-height: 1.0888888889;
@@ -607,6 +609,7 @@ article {
   position: relative;
   left: 1.5vw;
   width: 90vw;
+  max-width: 850px;
   padding: 1rem 0rem 2.5rem 0rem;
   display: block;
   clear: both;
