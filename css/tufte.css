@@ -295,6 +295,68 @@ $contrast-color: #e6e355;*/
   color: #099;
 }
 
+.readmore-state {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.readmore-hidden,
+.readmore-body,
+.readmore-less {
+  display: none;
+}
+
+.readmore-state:checked ~ * .readmore-hidden,
+.readmore-state:checked ~ * .readmore-less {
+  display: inline;
+}
+
+.readmore-state:checked ~ .readmore-body {
+  display: block;
+}
+
+.readmore-state:checked ~ * .readmore-more {
+  display: none;
+}
+
+.readmore-toggle {
+  color: rgba(252, 64, 64, 0.7);
+  font-family: "AkzidenzGrotesk-Med", "Helvetica", "Arial", sans-serif;
+  cursor: pointer;
+  white-space: nowrap;
+  user-select: none;
+}
+.readmore-toggle:hover {
+  text-decoration: underline;
+}
+
+.readmore-more::after {
+  content: " ›";
+}
+
+.readmore-less::before {
+  content: "‹ ";
+}
+
+.readmore-state:focus-visible ~ * .readmore-toggle {
+  outline: 2px solid rgba(252, 64, 64, 0.7);
+  outline-offset: 2px;
+}
+
+@media print {
+  .readmore-hidden {
+    display: inline;
+  }
+  .readmore-body {
+    display: block;
+  }
+  .readmore-toggle {
+    display: none;
+  }
+}
 * {
   margin: 0;
   padding: 0;
