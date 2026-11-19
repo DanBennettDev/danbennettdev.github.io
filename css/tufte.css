@@ -392,7 +392,7 @@ strong {
   font-family: "AkzidenzGrotesk-Med", "Helvetica", "Arial", sans-serif;
 }
 
-p > a {
+p > a, p > em > a {
   color: #828282;
   text-decoration: none;
   /*     text-decoration: underline;
@@ -408,7 +408,7 @@ p > a {
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
 }
-p > a:hover {
+p > a:hover, p > em > a:hover {
   background-image: linear-gradient(rgba(252, 64, 64, 0.7), rgba(252, 64, 64, 0.7));
   background-size: 90% 0.15em;
 }
