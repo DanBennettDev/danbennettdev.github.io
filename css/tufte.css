@@ -403,14 +403,14 @@ p > a, p > em > a {
   /*border-bottom: 2px dotted $contrast-color;*/
   background-image: repeating-linear-gradient(to right, rgba(252, 64, 64, 0.7) 0, rgba(252, 64, 64, 0.7) 0.1em, transparent 0.1em, transparent 0.2em);
   background-repeat: no-repeat;
-  background-size: 90% 0.1em;
+  background-size: calc(100% - 0.3em) 0.1em;
   background-position: 50% 100%;
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
 }
 p > a:hover, p > em > a:hover {
   background-image: linear-gradient(rgba(252, 64, 64, 0.7), rgba(252, 64, 64, 0.7));
-  background-size: 90% 0.15em;
+  background-size: calc(100% - 0.3em) 0.15em;
 }
 
 body {
